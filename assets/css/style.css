@@ -510,6 +510,48 @@ button.owl-next, button.owl-prev {
     font-weight: 500;
     z-index: 10;
   }
+
+/**** Detail Page *****/
+.product-detail-name {
+    font-size: 2rem;
+    text-transform: initial;
+    font-weight: 700;
+}
+.image-holder {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*.image-holder img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+.image-holder img {
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(150%);
+    width: 100%;
+    height: 100%;
+}
+
+/* The Transformation */
+.image-holder:hover img {
+    filter: brightness(100%);
+    transform: scale(3);
+}
+.description h5 {
+    position: relative;
+    width: fit-content;
+}
+.description h5:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: -.5rem;
+    left: 0;
+    background-color: var(--company-red-color);
+}
 /**** Media Queries ****/
 @media (max-width: 768px) {
     .authentication {
