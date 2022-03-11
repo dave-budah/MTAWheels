@@ -126,7 +126,7 @@
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="text" class="form_input" placeholder="" id="wa-num">
+                                <input type="text" class="form_input" placeholder="" id="wa-mobile">
                                 <label for="wa-num" class="form_label">Whatsapp Number</label>
                             </div>
                         </div>
@@ -140,15 +140,21 @@
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="password" class="form_input" placeholder="" id="password">
+                                <input type="password" class="form_input" placeholder="" id="password" name="password">
                                 <label for="password" class="form_label">Password</label>
+                                <span>
+                                    <i id="review" class="fa fa-eye" onclick="togglePW()" aria-hidden="true"></i>
+                                </span>
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="text" class="form_input" placeholder="" id="password-confirm">
+                                <input type="text" class="form_input" placeholder="" name="confirmPassword" id="password-confirm">
                                 <label for="password-confirm" class="form_label">Confirm Password</label>
+                                <span>
+                                    <i id="reviewer" class="fa fa-eye" onclick="togglePWD()" aria-hidden="true"></i>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -166,15 +172,15 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="text" class="form_input" placeholder="" id="name">
-                                <label for="name" class="form_label">Full name</label>
+                                <input type="text" class="form_input" placeholder="" id="i-name">
+                                <label for="i-name" class="form_label">Full name</label>
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="text" class="form_input" placeholder="" id="mobile">
-                                <label for="mobile" class="form_label">Mobile</label>
+                                <input type="text" class="form_input" placeholder="" id="i-mobile">
+                                <label for="i-mobile" class="form_label">Mobile</label>
                             </div>
                         </div>
 
@@ -187,22 +193,28 @@
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="text" class="form_input" placeholder="" id="email">
-                                <label for="email" class="form_label">Email</label>
+                                <input type="text" class="form_input" placeholder="" id="i-email">
+                                <label for="i-email" class="form_label">Email</label>
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="password" class="form_input" placeholder="" id="password">
-                                <label for="password" class="form_label">Password</label>
+                                <input type="password" class="form_input" placeholder="" id="i-password" name="i-password">
+                                <label for="i-password" class="form_label">Password</label>
+                                <span>
+                                    <i id="i-review" class="fa fa-eye" onclick="togglePWDI()" aria-hidden="true"></i>
+                                </span>
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form_div">
-                                <input type="text" class="form_input" placeholder="" id="password-confirm">
-                                <label for="password-confirm" class="form_label">Confirm Password</label>
+                                <input type="text" class="form_input" placeholder="" id="passwordConfirm" name="passwordConfirm">
+                                <label for="passwordConfirm" class="form_label">Confirm Password</label>
+                                <span>
+                                    <i id="i-reviewer" class="fa fa-eye" onclick="toggleIPWD()" aria-hidden="true"></i>
+                                </span>
                             </div>
                         </div>
                     </div>
