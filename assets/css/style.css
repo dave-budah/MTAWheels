@@ -437,8 +437,6 @@ button.owl-next, button.owl-prev {
     max-width: 600px;
     width: 100%;
     padding: 4rem 2rem;
-    /*border-radius: 1rem;*/
-    /*box-shadow: 0 10px 25px rgba(92, 99, 105, .2);*/
 }
 #login-form {
     max-width: 360px;
@@ -529,6 +527,9 @@ button.owl-next, button.owl-prev {
     font-size: 2rem;
     text-transform: initial;
     font-weight: 700;
+}
+.sizes {
+    font-size: .8rem;
 }
 .image-holder {
     width: 100%;
